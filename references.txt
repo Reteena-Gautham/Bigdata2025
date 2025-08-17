@@ -1,0 +1,7 @@
+All of my references for easy use so I don't forget:
+
+https://www.sciencedirect.com/science/article/abs/pii/S1746809424006815
+https://github.com/facebookresearch/fastMRI/blob/main/fastmri_examples/unet/train_unet_demo.py
+https://github.com/Joyies/Awesome-MRI-Reconstruction
+https://arxiv.org/pdf/2201.03230
+https://github.com/icon-lab/SSDiffRecon
