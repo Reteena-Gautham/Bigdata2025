@@ -1,0 +1,3 @@
+[submodule "model/classification/Swin3D"]
+	path = model/classification/Swin3D
+	url = https://github.com/microsoft/Swin3D.git
