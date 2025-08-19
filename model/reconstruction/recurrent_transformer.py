@@ -133,6 +133,12 @@ class RFB(nn.Module):
 
         return h2, h1_att, h2_att
 
+class SwinTransformerBlock(nn.Module):
+    def __init__(self, in_channels=2, out_channels=2, nf=64, down_scale=2, img_size=256,
+                num_head=6, depth=6, window_size=7, mlp_ratio=2.,
+                use_checkpoint=(False,False), resi_connection ='1conv'):
+        super(SwinTransformerBlock, self).__init__()
+
 class TransBlock_UC(nn.Module):
     """
         learned up&down conv
